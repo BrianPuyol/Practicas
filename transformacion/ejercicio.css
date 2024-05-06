@@ -1,0 +1,41 @@
+.caja{
+    width: 250px;
+    height: auto; /*Puse "auto" por probar y funcionó*/
+    background-color: orange;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /*No entiendo por qué hay margen si no lo agregué (sin contar el padding)*/
+    padding: 40px 10px 10px 10px;
+}
+
+.caja img{
+    width: 200px;
+    height: 300px;
+    transition: transform 0.3s ease; /*Me funcionó "transform" en vez de "all"*/
+}
+
+.caja img:hover{
+    transform: scale(1.1);
+}
+
+.textos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.juego01{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.los_cataros{
+    font-size: 15px;;
+}
+
+
+
+    

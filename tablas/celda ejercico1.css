@@ -1,0 +1,31 @@
+#titulo{
+    background-color: rgb(2, 175, 2);
+    color: white;
+}
+
+#sub_titulo{
+    background-color: darkgrey;
+    height: 40px;
+    text-align: left;
+    font-size: 13px;
+}
+
+.celdas{
+    background-color: lightgray;
+}
+
+#celda_0{
+    background-color: red;
+}
+
+.numeros{
+    text-align: center;
+}
+
+.margen_der1{
+    padding-right: 25px;
+}
+
+.margen_der2{
+    padding-right: 10px;
+}

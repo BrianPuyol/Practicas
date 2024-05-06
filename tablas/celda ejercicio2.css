@@ -1,0 +1,27 @@
+table{
+    text-align: center;
+}
+
+#titulo{
+    background-color: green;
+    color: white;
+}
+
+#celdas_grandes{
+    padding: 10px 50px 10px 50px;
+}
+
+.celda1{
+    background-color: red;
+    color: white;
+}
+
+.celda2{
+    background-color: rgb(25, 25, 218);
+    color: white;
+}
+
+.celda5{
+    background-color: blue;
+    color: white;
+}
